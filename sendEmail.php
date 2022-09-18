@@ -14,7 +14,7 @@
         $lName = $_POST['lastName'];
         $headers = "From: ".$email.;
 
-        $txt = "You have recieved an e-mail from".$Fname .$Lname.".\n\n".$message;
+        $txt = "You have recieved an e-mail from".$fName .$lName.".\n\n".$message;
         
         mail($to, $txt, $message, $headers);
         header("Location:index.html");
