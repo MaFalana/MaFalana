@@ -215,7 +215,8 @@ body:not(.user-is-tabbing) a:focus {
     color: var(--pink);
 }
 
-.btn {
+.btn 
+{
     position: relative;
     display: inline-block;
     padding: 1rem 4.2rem;
@@ -394,7 +395,7 @@ body:not(.user-is-tabbing) a:focus {
     background: transparent;
 }
 
-.emailSubmit button 
+.emailSubmit input 
 {
     color: var(--white);
     font-weight: 400;
@@ -639,7 +640,8 @@ body:not(.user-is-tabbing) a:focus {
 /* ----- Contact ----- */
 /* --------------------------------------- */
 
-.contact__info {
+.contact__info 
+{
     max-width: var(--container-medium-width);
 }
 
