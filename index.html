@@ -212,10 +212,11 @@
         <!-- Replace the email with yours -->
         <a href="mailto:you@example.com" class="btn">you@example.com</a>
 
-        <form method="post" action="subscriberform.php">
+        <form  action="sendEmail.php" method="post">
 
-          <input type="text" value="<?php print $Email; ?>" name="Email" id="Email"  placeholder="Email" required/>
-          <textarea name="message"></textarea>
+          <input type="text" name="Email" placeholder="Email" required/>
+          <br/>
+          <textarea name="message" placeholder="Email"></textarea>
         
           <input name="enter" class="btn" type="submit" value="Send"/>
           
