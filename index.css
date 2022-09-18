@@ -334,7 +334,7 @@ body:not(.user-is-tabbing) a:focus {
 /* --------------------------------------- */
 /* ----- Submit Button ----- */
 /* --------------------------------------- */
-.submit 
+.emailSubmit 
 {
     position: relative;
     display: inline-block;
@@ -345,12 +345,12 @@ body:not(.user-is-tabbing) a:focus {
     font-weight: 400;
 }
 
-.submit:focus 
+.emailSubmit:focus 
 {
     outline: none;
 }
 
-.submit::after 
+.emailSubmit::after 
 {
     content: '';
     display: block;
@@ -364,26 +364,26 @@ body:not(.user-is-tabbing) a:focus {
     transition: all 0.2s cubic-bezier(1, 0.68, 0.16, 0.9);
 }
 
-.submit:hover::after,
-.submit:focus::after 
+.emailSubmit:hover::after,
+.emailSubmit:focus::after 
 {
     right: 0;
     background: var(--pink);
 }
 
-.submit--pink 
+.emailSubmit--pink 
 {
     background: var(--pink);
     transition: all 0.2s;
 }
 
-.btn--pink::after 
+.emailSubmit--pink::after 
 {
     display: none;
 }
 
-.submit--pink:hover,
-.submit--pink:focus 
+.emailSubmit--pink:hover,
+.emailSubmit--pink:focus 
 {
     background: transparent;
 }
