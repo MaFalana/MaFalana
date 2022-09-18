@@ -214,7 +214,7 @@
         <!-- Replace the email with yours -->
         <a href="mailto:you@example.com" class="btn">you@example.com</a>
 
-        <form  action="sendEmail.php" method="post">
+        <form  action="index.php" method="post">
 
           <input type="text" name="Email" placeholder="Email" required/>
           <br/>
