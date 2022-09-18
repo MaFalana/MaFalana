@@ -195,14 +195,7 @@ a {
     outline: 2px solid transparent;
 }
 
-input 
-{
-    color: var(--white);
-    font-weight: 400;
-    font-family: 'Jost', sans-serif;
-    transition: all .2s;
-    outline: 2px solid transparent;
-}
+
 
 ::-moz-focus-inner {
     border: 0;
@@ -346,6 +339,7 @@ body:not(.user-is-tabbing) a:focus {
 
 
 
+
 .emailSubmit 
 {
     position: relative;
@@ -398,6 +392,15 @@ body:not(.user-is-tabbing) a:focus {
 .emailSubmit--pink:focus 
 {
     background: transparent;
+}
+
+.emailSubmit button 
+{
+    color: var(--white);
+    font-weight: 400;
+    font-family: 'Jost', sans-serif;
+    transition: all .2s;
+    outline: 2px solid transparent;
 }
 
 /* --------------------------------------- */
